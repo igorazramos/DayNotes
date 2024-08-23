@@ -10,7 +10,7 @@ Primeiro é necessário instalar o node na versão 18.20.4, que é a versão com
 
 Execute o instalador e siga o passo a passo até que esteja concluído.
 
-Acesse a pasta `Front` através do prompt de comando, utilize o comando `npm i` caso for a primeira vez executando a aplicação, em seguida utilize o comando `npm start` para rodar a aplicação.
+Acesse a pasta `Front` através do prompt de comando, utilize o comando `npm i --force` caso for a primeira vez executando a aplicação, em seguida utilize o comando `npm start` para rodar a aplicação.
 
 ## Criando um banco de dados no MongoDB
 
@@ -18,7 +18,7 @@ Acesse a pasta `Front` através do prompt de comando, utilize o comando `npm i` 
 
 2. Depois de logado em sua conta, acesse a parte `Data Services` e crie um novo cluster no botão `Create Cluster`.
 
-3. Selecione a opção `Free`, coloque o nome de sua preferência e escolha a região, recomendo a região de `São Paulo`, clique em `Create Deployment` após tudo preenchido.
+3. Selecione a opção `Free`, coloque o nome de sua preferência e escolha a região, selecione a região mais próxima, clique em `Create Deployment` após tudo preenchido.
 
 4. Para conectar ao cluster, crie seu `Username` e seu `Password` certifique de anotá-los, em seguida no botão `Create Database User` e por fim em `Choose a connection method`.
 
